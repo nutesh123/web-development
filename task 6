@@ -1,0 +1,14 @@
+let item2nd=document.querySelector('.list-group-item:nth-child(2)')
+item2nd.style.background="green"
+let item3rd=document.querySelector('.list-group-item:nth-child(3)')
+item3rd.style.color="green"
+
+
+var second=document.querySelectorAll('li')
+second[1].style.color="green";
+
+
+let odd=document.querySelectorAll('li') 
+for(let i=0;i<=odd.length;i=i+2){
+    odd[i].style.background='green'
+}
