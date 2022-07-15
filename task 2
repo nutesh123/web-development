@@ -1,0 +1,6 @@
+let headertitle=document.getElementById('header-title');
+headertitle.style.borderBottom='solid 3px #000'
+let title=document.getElementById('title1');
+//title.textContent='<b>add items</b>'
+title.innerHTML='<b>add items</b>'
+title.style.color="green"
