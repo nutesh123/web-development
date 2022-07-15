@@ -1,0 +1,4 @@
+let newli=document.getElementById('newli')
+newli.style.background="yellow"
+let li=document.getElementsByTagName('li')
+li[4].style.color='red'
