@@ -1,0 +1,27 @@
+let items=document.querySelector('#items')
+//items.parentElement.style.background="orange"
+//items.parentElement.style.color="red"
+
+items.firstElementChild.textContent="hello"
+items.firstElementChild.style.color='red'
+
+
+items.lastElementChild.textContent="by"
+items.lastElementChild.style.color="yellow"
+
+items.previousElementSibling.style.color='blue'
+
+//items.nextElementSibling.style.color='pink'
+
+let newdiv=document.createElement('div');
+newdiv.className='hello';
+newdiv.id='id1';
+newdiv.setAttribute('title','hello div');
+
+let newdivtext=document.createTextNode('hello world');
+newdiv.appendChild(newdivtext);
+
+let container=document.querySelector('header .container')
+let h1=document.querySelector('header h1');
+
+container.insertBefore(newdiv,h1);
